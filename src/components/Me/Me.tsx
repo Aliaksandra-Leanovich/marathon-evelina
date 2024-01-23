@@ -4,8 +4,6 @@ import {
   ContainterImageSC,
   DescriptionSC,
   DescriptionSecondSC,
-  ImageSC,
-  ImageSecondSC,
   ImagesSC,
   ListItemSC,
   ListSC,
@@ -56,16 +54,25 @@ export const Me = () => {
         </DescriptionSC>
         <ImagesSC>
           <ContainterImageSC>
-            <ImageSC imageUrl={Picture1} />
+            <picture>
+              <source srcSet={Picture1} type="image/webp" />
+              <img src={Picture1} alt="Description" />
+            </picture>
           </ContainterImageSC>
           <ContainterImageSC>
-            <ImageSC imageUrl={Picture3} />
+            <picture>
+              <source srcSet={Picture3} type="image/webp" />
+              <img src={Picture3} alt="Description" />
+            </picture>
           </ContainterImageSC>
         </ImagesSC>
       </ContainerSC>
       <ContainerSC>
         <ContainterImageSC>
-          <ImageSecondSC imageUrl={Picture2} />
+          <picture>
+            <source srcSet={Picture2} type="image/webp" />
+            <img src={Picture2} alt="Description" />
+          </picture>
         </ContainterImageSC>
         <DescriptionSecondSC>
           <TextSC>

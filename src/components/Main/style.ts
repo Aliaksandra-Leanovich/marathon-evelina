@@ -33,23 +33,12 @@ export const WrapperSC = styled.div`
   }
 `;
 
-interface BackSCProps {
-  imageUrl: string;
-}
-
-export const BackSC = styled.div<BackSCProps>`
-  padding-top: 76px;
-  height: 100%;
-  position: absolute;
-  background-image: url(${(props) => props.imageUrl});
-  image-rendering: -webkit-optimize-contrast;
+export const BackSC = styled.div`
   background-position: 100% 20%;
-  background-size: cover;
   top: 0;
   left: 0;
   z-index: 0;
   margin: 0 auto;
-  width: 100%;
 
   ${media.TABLET} {
     background-position: 70% 6%;
@@ -58,6 +47,13 @@ export const BackSC = styled.div<BackSCProps>`
   ${media.DESKTOP} {
     background-position: 70% 20%;
   }
+
+  width: 100%;
+  position: absolute;
+  height: 700px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
 `;
 
 export const DescriptionSC = styled.div`

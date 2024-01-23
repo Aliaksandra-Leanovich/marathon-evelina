@@ -10,7 +10,7 @@ import {
 } from "./style";
 import { Colors, Typography } from "../../ui";
 import { TypographyVariants } from "../../enums";
-import Picture from "../../assets/main.webp";
+import Picture from "../../assets/main2.webp";
 import { Header } from "../Header";
 
 export const Main = () => {
@@ -18,7 +18,12 @@ export const Main = () => {
     <WrapperSC id="main">
       <Header />
       <ContainerSC>
-        <BackSC imageUrl={Picture}></BackSC>
+        <BackSC>
+          <picture>
+            <source srcSet={Picture} type="image/webp" />
+            <img src={Picture} alt="Description" />
+          </picture>
+        </BackSC>
         <DescriptionSC>
           <Typography
             variant={TypographyVariants.paragraphLBold}

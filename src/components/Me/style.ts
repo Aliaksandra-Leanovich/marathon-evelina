@@ -59,58 +59,10 @@ export const ImagesSC = styled.div`
 export const ContainterImageSC = styled.div`
   width: 100%;
   position: relative;
-  height: 100%;
-
-  ${media.TABLET} {
-    width: 100%;
-  }
-`;
-
-interface BackSCProps {
-  imageUrl: string;
-}
-
-export const ImageSC = styled.div<BackSCProps>`
-  padding-top: 76px;
-  height: 100%;
-  position: absolute;
-  background-image: url(${(props) => props.imageUrl});
-  image-rendering: -webkit-optimize-contrast;
-  background-position: 100% 40%;
-  background-size: cover;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  margin: 0 auto;
-  width: 100%;
-
-  ${media.TABLET} {
-    position: relative;
-    background-position: 70% 40%;
-    height: 200px;
-  }
-`;
-
-export const ImageSecondSC = styled.div<BackSCProps>`
-  padding-top: 76px;
-  height: 100%;
-  position: absolute;
-  background-image: url(${(props) => props.imageUrl});
-  image-rendering: -webkit-optimize-contrast;
-  background-position: 100% 40%;
-  background-size: cover;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  margin: 0 auto;
-  width: 100%;
-
-  ${media.TABLET} {
-    position: relative;
-    background-position: 70% 40%;
-    height: 600px;
-    margin-top: 10px;
-  }
+  height: 600px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
 `;
 
 export const DescriptionSecondSC = styled.div`
