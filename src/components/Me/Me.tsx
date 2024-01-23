@@ -15,7 +15,7 @@ import {
 import { Colors, Typography } from "../../ui";
 import { TypographyVariants } from "../../enums";
 import Picture1 from "../../assets/do1.jpeg";
-import Picture2 from "../../assets/me.jpg";
+import Picture2 from "../../assets/me.webp";
 import Picture3 from "../../assets/do2.jpeg";
 
 export const Me = () => {

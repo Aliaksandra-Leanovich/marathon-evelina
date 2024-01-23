@@ -10,7 +10,7 @@ import {
 } from "./style";
 import { Colors, Typography } from "../../ui";
 import { TypographyVariants } from "../../enums";
-import Picture from "../../assets/main.jpg";
+import Picture from "../../assets/main.webp";
 import { Header } from "../Header";
 
 export const Main = () => {

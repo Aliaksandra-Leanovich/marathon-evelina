@@ -12,7 +12,7 @@ import {
   ContainterImageSC,
 } from "./style";
 import { Colors, Typography } from "../../ui";
-import Picture1 from "../../assets/results.png";
+import Picture1 from "../../assets/results.webp";
 import { TypographyVariants } from "../../enums";
 
 export const Results = () => {
