@@ -12,7 +12,7 @@ import {
 import { Colors, Typography } from "../../ui";
 import { TypographyVariants } from "../../enums";
 import Picture1 from "../../assets/faq.webp";
-import Picture2 from "../../assets/main.webp";
+import Picture2 from "../../assets/main2.webp";
 
 export const ForYou = () => {
   return (

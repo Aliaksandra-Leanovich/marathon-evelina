@@ -42,6 +42,7 @@ export const BackSC = styled.div<BackSCProps>`
   height: 100%;
   position: absolute;
   background-image: url(${(props) => props.imageUrl});
+  image-rendering: -webkit-optimize-contrast;
   background-position: 100% 20%;
   background-size: cover;
   top: 0;
