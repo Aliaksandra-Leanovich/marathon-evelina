@@ -74,7 +74,7 @@ export const ContainterImageSC = styled.div`
   justify-content: center;
 
   ${media.TABLET} {
-    width: 86%;
+    width: 100%;
   }
 `;
 
