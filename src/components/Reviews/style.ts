@@ -57,4 +57,8 @@ export const ReviewSecondSC = styled.div`
     align-items: center;
     justify-content: center;
   }
+
+  ${media.TABLET} {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
