@@ -20,7 +20,6 @@ export const Table = () => {
           Программа Интенсива
         </Typography>
         <AccordionDates />
-
         <ContainerTableSC>
           <Typography
             variant={TypographyVariants.paragraphLBold}
@@ -154,6 +153,12 @@ export const Table = () => {
             </CeilSC>
           </RowSC>
         </ContainerTableSC>
+        <Typography
+          variant={TypographyVariants.paragraphLBold}
+          color={Colors.TEXTDARK}
+        >
+          БОНУС: подкаст “новое время, как развивается мир сейчас”
+        </Typography>
       </ContainerSC>
     </WrapperSC>
   );
