@@ -19,7 +19,7 @@ export const Main = () => {
       <Header />
       <ContainerSC>
         <BackSC>
-          <embed src={Picture} width="100%" />
+          <img src={Picture} alt="Description" />
         </BackSC>
         <DescriptionSC>
           <Typography
