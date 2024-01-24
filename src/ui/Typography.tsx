@@ -43,13 +43,13 @@ const variantTypography = {
     line-height: 66px;
 
     ${media.TABLET} {
-      font-size: 44px;
-      line-height: 60px;
+      font-size: 30px;
+      line-height: 34px;
     }
 
     ${media.PHONE} {
-      font-size: 30px;
-      line-height: 40px;
+      font-size: 20px;
+      line-height: 20px;
     }
   `,
 
@@ -70,8 +70,14 @@ const variantTypography = {
     font-size: 16px;
     line-height: 24px;
 
+    ${media.TABLET} {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
     ${media.PHONE} {
-      line-height: 22px;
+      font-size: 14px;
+      line-height: 16px;
     }
   `,
 
@@ -80,8 +86,14 @@ const variantTypography = {
     font-size: 16px;
     line-height: 24px;
 
+    ${media.TABLET} {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
     ${media.PHONE} {
-      line-height: 22px;
+      font-size: 14px;
+      line-height: 16px;
     }
   `,
 
