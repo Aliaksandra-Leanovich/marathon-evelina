@@ -19,10 +19,7 @@ export const Main = () => {
       <Header />
       <ContainerSC>
         <BackSC>
-          <picture>
-            <source srcSet={Picture} type="image/webp" />
-            <img src={Picture} alt="Description" />
-          </picture>
+          <embed src={Picture} width="100%" />
         </BackSC>
         <DescriptionSC>
           <Typography
