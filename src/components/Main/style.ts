@@ -39,21 +39,24 @@ export const BackSC = styled.div`
   left: 0;
   z-index: 0;
   margin: 0 auto;
-
-  ${media.TABLET} {
-    background-position: 70% 6%;
-  }
-
-  ${media.DESKTOP} {
-    background-position: 70% 20%;
-  }
-
   width: 100%;
   position: absolute;
-  height: 700px;
+  height: 650px;
   overflow: hidden;
   object-fit: cover;
   object-position: center;
+
+  ${media.LAPTOP} {
+    height: 650px;
+  }
+
+  ${media.TABLET} {
+    height: 400px;
+  }
+
+  ${media.PHONE} {
+    height: 450px;
+  }
 `;
 
 export const DescriptionSC = styled.div`
@@ -106,9 +109,7 @@ export const LinksContainerSC = styled.div`
   margin-top: 20px;
 
   ${media.TABLET} {
-    column-gap: 0;
-    row-gap: 20px;
-    flex-direction: column;
+    column-gap: 10px;
   }
 `;
 
@@ -136,6 +137,13 @@ export const LinkFirstSC = styled.a`
     background-color: ${Colors.SECONDARY};
     color: ${Colors.PRIMARY};
   }
+
+  ${media.TABLET} {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    max-width: 160px;
+  }
 `;
 
 export const LinkSecondSC = styled(Link)`
@@ -157,5 +165,12 @@ export const LinkSecondSC = styled(Link)`
 
   &:hover {
     border: 3px solid ${Colors.SECONDARY};
+  }
+
+  ${media.TABLET} {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    max-width: 160px;
   }
 `;

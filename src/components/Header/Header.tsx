@@ -36,7 +36,7 @@ export const Header = () => {
               variant={TypographyVariants.subtitle}
               color={Colors.TEXTLIGHT}
             >
-              КУРС ОТ <br /> ЭВЕЛИНЫ СКОБЛЯ
+              ИНТЕНСИВ ОТ <br /> ЭВЕЛИНЫ СКОБЛИ
             </Typography>
           </ContainerTextSC>
           <TopNavigation isOpen={isOpen} />

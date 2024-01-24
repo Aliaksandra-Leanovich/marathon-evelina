@@ -68,62 +68,7 @@ export const ContainerRatesSC = styled.div`
 export const ContainterImageSC = styled.div`
   width: 100%;
   position: relative;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  ${media.TABLET} {
-    width: 100%;
-  }
-`;
-
-interface BackSCProps {
-  imageUrl: string;
-}
-
-export const ImageSC = styled.div<BackSCProps>`
-  padding-top: 76px;
-  height: 100%;
-  position: absolute;
-  background-image: url(${(props) => props.imageUrl});
-  background-position: 100% 40%;
-  background-size: cover;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  margin: 0 auto;
-  width: 100%;
-
-  ${media.TABLET} {
-    background-position: 70% 6%;
-  }
-`;
-
-export const ContainerWhiteSC = styled.div`
-  width: 400px;
-  height: 400px;
-  background-color: ${Colors.TEXTLIGHT};
-  padding: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 3;
-  position: relative;
-`;
-
-export const ImageSecondSC = styled.div<BackSCProps>`
-  height: 100%;
-  position: absolute;
-  background-image: url(${(props) => props.imageUrl});
-  image-rendering: -webkit-optimize-contrast;
-  background-position: 100% 10%;
-  background-size: cover;
-  z-index: 0;
-  margin: 0 auto;
-  width: 100%;
-
-  ${media.TABLET} {
-    background-position: 70% 6%;
-  }
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
 `;

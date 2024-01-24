@@ -83,3 +83,9 @@ export const LinksSC = styled.a`
     background-color: ${Colors.TEXTDARK};
   }
 `;
+
+export const TextContainerSC = styled.div`
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+`;

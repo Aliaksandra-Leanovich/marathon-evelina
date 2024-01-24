@@ -29,7 +29,7 @@ export const WrapperSC = styled.div`
 `;
 
 export const ContainerTableSC = styled.div`
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
 
@@ -50,7 +50,7 @@ export const RowSC = styled.div`
 
 export const DateCeilSC = styled.div`
   width: 100%;
-  height: 70px;
+  height: 40px;
   border: 1px solid #dbdbdb;
   display: flex;
   align-items: center;
@@ -59,15 +59,11 @@ export const DateCeilSC = styled.div`
   padding: 2px;
   font-family: "Futura", Futura, sans-serif;
   font-weight: 400;
-
-  ${media.LAPTOP} {
-    height: 40px;
-  }
 `;
 
 export const CeilSC = styled.div`
   width: 100%;
-  height: 240px;
+  height: 180px;
   border: 1px solid #dbdbdb;
   display: flex;
   flex-direction: column;
@@ -75,14 +71,6 @@ export const CeilSC = styled.div`
   row-gap: 4px;
   background-color: ${Colors.TEXTLIGHT};
   align-items: end;
-
-  ${media.LAPTOP} {
-    height: 200px;
-  }
-
-  ${media.TABLET} {
-    height: 180px;
-  }
 
   ${media.PHONE} {
     height: 340px;
@@ -105,14 +93,10 @@ export const TaskSC = styled.div`
   border-top: 4px solid ${Colors.SECONDARY};
   background-color: ${Colors.PRIMARY};
   border-radius: 5%;
-  font-size: 12px;
+  font-size: 8px;
   padding: 4px;
   font-family: "Futura", Futura, sans-serif;
   font-weight: 400;
-
-  ${media.LAPTOP} {
-    font-size: 8px;
-  }
 
   ${media.PHONE} {
     font-size: 6px;

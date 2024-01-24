@@ -10,7 +10,7 @@ import {
 } from "./style";
 import { Colors, Typography } from "../../ui";
 import { TypographyVariants } from "../../enums";
-import Picture from "../../assets/main2.webp";
+import Picture from "../../assets/newone.jpg";
 import { Header } from "../Header";
 
 export const Main = () => {
@@ -39,13 +39,15 @@ export const Main = () => {
             variant={TypographyVariants.paragraphS}
             color={Colors.TEXTLIGHT}
           >
-            Хочешь узнать о том, как улучшить свое тело и состояние, не отделяя
-            физическое и телесное состояние от всех сфер жизни, а работая
-            комлесно? Тогда жду тебя на интенсиве <span> 5 февраля</span>
+            Хочешь узнать, как улучшить свое тело и состояние через любовь, не
+            выпадая из других сфер жизни? Тогда жду на интенсиве
+            <span> 5 февраля</span>
           </Typography>
 
           <LinksContainerSC>
-            <LinkFirstSC href="/"> Участвовать</LinkFirstSC>
+            <LinkFirstSC href="https://t.me/evi_skoblya">
+              Участвовать
+            </LinkFirstSC>
             <LinkSecondSC to="programm" smooth={true} duration={500}>
               Программа
             </LinkSecondSC>

@@ -10,7 +10,7 @@ import { Table } from "../Table/Table";
 import { ContainerSC, WrapperSC } from "./style";
 const faqs = [
   {
-    question: "Сколько времени будет длиться марафон?",
+    question: "Сколько времени будет длиться интенсив?",
     answer: "Длительность интенсив 2 недели. Начало 5 февраля",
   },
   {

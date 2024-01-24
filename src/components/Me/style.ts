@@ -59,7 +59,6 @@ export const ImagesSC = styled.div`
 export const ContainterImageSC = styled.div`
   width: 100%;
   position: relative;
-  height: 600px;
   overflow: hidden;
   object-fit: cover;
   object-position: center;

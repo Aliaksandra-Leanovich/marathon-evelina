@@ -45,20 +45,3 @@ export const ContainerImagesSC = styled.div`
 export const ImagesSC = styled.div`
   width: 100%;
 `;
-
-export const ReviewSecondSC = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 20px;
-  row-gap: 20px;
-
-  div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  ${media.TABLET} {
-    grid-template-columns: 1fr 1fr;
-  }
-`;

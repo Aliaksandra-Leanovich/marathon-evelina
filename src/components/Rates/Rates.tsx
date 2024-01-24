@@ -6,6 +6,7 @@ import {
   ListItemSC,
   ListSC,
   RateSC,
+  TextContainerSC,
   TitleSC,
   WrapperSC,
 } from "./styles";
@@ -104,7 +105,15 @@ export const Rates = () => {
               </Typography>
             </ListItemSC>
           </ListSC>
-          <LinksSC href="/"> Участвовать</LinksSC>
+          <TextContainerSC>
+            <Typography
+              variant={TypographyVariants.paragraphLBold}
+              color={Colors.SECONDARY}
+            >
+              100BYN / 2700 RUB
+            </Typography>
+          </TextContainerSC>
+          <LinksSC href="https://t.me/evi_skoblya"> Участвовать</LinksSC>
         </RateSC>
       </ContainerSC>
     </WrapperSC>

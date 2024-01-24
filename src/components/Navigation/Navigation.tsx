@@ -4,7 +4,7 @@ import { INavigationProps } from "./type";
 const config = [
   {
     href: "main",
-    title: "О курсе",
+    title: "Об интенсиве",
   },
   {
     href: "programm",

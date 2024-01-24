@@ -51,7 +51,7 @@ export const Results = () => {
                   variant={TypographyVariants.paragraphS}
                   color={Colors.SECONDARY}
                 >
-                  улучшение самочувствия и настроение
+                  улучшение самочувствия и настроения
                 </Typography>
               </ListItemSC>
               <ListItemSC>
@@ -69,7 +69,7 @@ export const Results = () => {
                   variant={TypographyVariants.paragraphS}
                   color={Colors.SECONDARY}
                 >
-                  улучшишь внутренне душевное состояние
+                  улучшение внутреннего душевного состояния
                 </Typography>
               </ListItemSC>
               <ListItemSC>

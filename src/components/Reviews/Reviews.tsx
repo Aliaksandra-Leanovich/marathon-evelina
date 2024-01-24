@@ -12,13 +12,7 @@ import Person1 from "../../assets/person1.jpeg";
 import Person2 from "../../assets/person2.jpeg";
 import Person3 from "../../assets/person3.jpeg";
 import Person4 from "../../assets/person4.jpeg";
-import {
-  ContainerImagesSC,
-  ContainerSC,
-  ImagesSC,
-  ReviewSecondSC,
-  WrapperSC,
-} from "./style";
+import { ContainerImagesSC, ContainerSC, ImagesSC, WrapperSC } from "./style";
 import { Colors, Typography } from "../../ui";
 import { TypographyVariants } from "../../enums";
 
@@ -92,13 +86,6 @@ export const Reviews = () => {
           Отзывы клиентов
         </Typography>
         <SliderReviews testimonials={testimonialsData} />
-        <ReviewSecondSC>
-          {testimonialsData.map((item) => (
-            <ImagesSC key={item.id}>
-              <img src={item.image} alt={item.id.toLocaleString()} />
-            </ImagesSC>
-          ))}
-        </ReviewSecondSC>
         <Typography
           variant={TypographyVariants.paragraphLBold}
           color={Colors.TEXTDARK}

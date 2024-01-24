@@ -2,17 +2,13 @@ import React from "react";
 import {
   ContainerRatesSC,
   ContainerSC,
-  ContainerWhiteSC,
   ContainterImageSC,
-  ImageSC,
-  ImageSecondSC,
   RateSC,
   WrapperSC,
 } from "./style";
 import { Colors, Typography } from "../../ui";
 import { TypographyVariants } from "../../enums";
 import Picture1 from "../../assets/faq.webp";
-import Picture2 from "../../assets/main.webp";
 
 export const ForYou = () => {
   return (
@@ -20,7 +16,7 @@ export const ForYou = () => {
       <ContainerSC>
         <ContainerRatesSC>
           <Typography variant={TypographyVariants.h2} color={Colors.SECONDARY}>
-            Кому подойдет этот курс?
+            Кому подойдет этот интенсив?
           </Typography>
           <RateSC>
             <Typography
@@ -34,7 +30,7 @@ export const ForYou = () => {
               color={Colors.TEXTDARK}
             >
               2. Если у тебя огромная
-              <span> тревожность из-за питаний и тренировок </span>, постоянно
+              <span> тревожность из-за питания и тренировок </span>, постоянно
               боишься сделать что-то нет, только бы не поправиться и не
               откатиться назад
             </Typography>
@@ -64,7 +60,7 @@ export const ForYou = () => {
               variant={TypographyVariants.paragraphM}
               color={Colors.TEXTDARK}
             >
-              6. Ты <span> не имеешь четкой стратегии</span> в действиях. у тебя
+              6. Ты <span> не имеешь четкой стратегии</span> в действиях, у тебя
               нет системы и твоих личных ритуалов. Нет плана в работе с телом
             </Typography>
             <Typography
@@ -77,10 +73,10 @@ export const ForYou = () => {
           </RateSC>
         </ContainerRatesSC>
         <ContainterImageSC>
-          <ImageSC imageUrl={Picture1} />
-          <ContainerWhiteSC>
-            <ImageSecondSC imageUrl={Picture2} />
-          </ContainerWhiteSC>
+          <picture>
+            <source srcSet={Picture1} type="image/webp" />
+            <img src={Picture1} alt="Description" />
+          </picture>
         </ContainterImageSC>
       </ContainerSC>
     </WrapperSC>
